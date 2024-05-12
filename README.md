@@ -29,6 +29,13 @@ https://www.youtube.com/watch?v=AmGSEH7QcDg&t=4149s
   - Setup scriptable objects for spawning ingredients
 
 - Progress 04/28/2024: 3:49:24
+
   - Implemented Kitchen object parent class
   - used interfaces to allow player object to be set as kitchen object parent
     just like the counter
+
+- Progress 05/11/2024: 4:13:02
+  - Created BaseCounter prefab and made all counters variants
+  - Refactored logic for counters into base counter for all shared functions and properties
+  - Created ContainerCounter as counter variant with spawn kitchen object function and animation
+  - updated selected counter visual to use BaseCounter as reference and to use a GameObject array for all the objects that make up counters so they all can turn a different material when selected
